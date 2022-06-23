@@ -65,7 +65,7 @@ describe('HomeComponent', () => {
     const comp = fixture.componentInstance;
     const debugElement = fixture.debugElement.nativeElement;
 
-    const span = debugElement.querySelector('span');
+    const span = debugElement.querySelector('#result');
     expect(span.textContent).toBe('0');
 
     comp.x = 1;
